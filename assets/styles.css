@@ -1,0 +1,57 @@
+* {
+    max-width: 1200px;
+}
+
+
+
+body {
+    background-color: rgb(90, 93, 93);
+}
+
+header {
+    margin: auto;
+    position: fixed;
+    line-height: 30px;
+    height: 250px;
+    width: 1200px;
+    text-align: center;
+    background-color: rgb(205, 72, 72);
+}
+
+nav ul {
+    position: absolute;
+    left: 20px;
+    top: 170px;
+}
+
+.button-nav {
+    display: inline-block;
+    padding: 0px 10px;
+    border: 2px solid blue;
+    background-color: white;
+}
+
+.button-nav:hover {
+    background-color: rgb(36, 147, 212);
+    color: white;
+}
+
+.title {
+    font-family: cursive;
+    color: darkblue;
+    font-weight: bolder;
+}
+
+.profile-picture {
+    position: absolute;
+    border: 3px solid blue;
+    height: 200px;
+    width: 200px;
+    left: 900px;
+    top: 10px;
+}
+
+header h1 {
+    font-size: 80px;
+    
+}
