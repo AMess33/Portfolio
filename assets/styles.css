@@ -61,6 +61,7 @@ header h1 {
 
 .aboutMe {
     background-color: beige;
+    border: 3px solid blue;
     float: left;
     width: 28%;
     height: 100%;
@@ -71,6 +72,7 @@ header h1 {
 
 .project {
     flex-wrap: wrap;
+    border: 3px solid blue;
     text-align: center;
     float: right;
     width: 70%;
@@ -85,17 +87,21 @@ header h1 {
 .images img { 
     height: 400px;
     width: 750px;
+    padding: 10px;
 }
 
 .imageTwo img {
     height: 400px;
     width: 370px;
+    padding: 5px;
 }
 
 .images img:hover {
     border: 4px dotted blue;
 }
-
+.imageTwo:hover {
+    border: 4px dotted blue;
+}
 .footer {
   
 
