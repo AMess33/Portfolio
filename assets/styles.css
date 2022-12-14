@@ -65,10 +65,13 @@ header h1 {
     width: 28%;
     height: 100%;
     text-align: center;
+    padding: 5px;
 
 }
 
 .project {
+    flex-wrap: wrap;
+    text-align: center;
     float: right;
     width: 70%;
     height: 100%;
@@ -79,7 +82,21 @@ header h1 {
     display: inline-block;
 }
 
-img { 
+.images img { 
     height: 400px;
     width: 750px;
+}
+
+.imageTwo img {
+    height: 400px;
+    width: 370px;
+}
+
+.images img:hover {
+    border: 4px dotted blue;
+}
+
+.footer {
+  
+
 }
