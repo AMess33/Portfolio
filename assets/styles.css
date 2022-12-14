@@ -1,5 +1,5 @@
 * {
-    max-width: 1200px;
+box-sizing: border-box;
 }
 
 
@@ -10,7 +10,6 @@ body {
 
 header {
     margin: auto;
-    position: fixed;
     line-height: 30px;
     height: 250px;
     width: 1200px;
@@ -23,7 +22,7 @@ header {
 nav ul {
     position: absolute;
     left: 20px;
-    top: 170px;
+    top: 160px;
 }
 
 .button-nav {
@@ -51,11 +50,36 @@ nav ul {
     border-radius: 10px;
     height: 200px;
     width: 200px;
-    left: 850px;
-    top: 20px;
+    left: 870px;
+    top: 30px;
 }
 
 header h1 {
     font-size: 80px;
     
+}
+
+.aboutMe {
+    background-color: beige;
+    float: left;
+    width: 28%;
+    height: 100%;
+    text-align: center;
+
+}
+
+.project {
+    float: right;
+    width: 70%;
+    height: 100%;
+    background-color: beige;
+}
+
+.project li {
+    display: inline-block;
+}
+
+img { 
+    height: 400px;
+    width: 750px;
 }
