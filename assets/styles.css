@@ -16,6 +16,8 @@ header {
     width: 1200px;
     text-align: center;
     background-color: rgb(205, 72, 72);
+    border-radius: 30%;
+    border: 3px solid blue;
 }
 
 nav ul {
@@ -29,6 +31,7 @@ nav ul {
     padding: 0px 10px;
     border: 2px solid blue;
     background-color: white;
+    border-radius: 25%;
 }
 
 .button-nav:hover {
@@ -47,8 +50,8 @@ nav ul {
     border: 3px solid blue;
     height: 200px;
     width: 200px;
-    left: 900px;
-    top: 10px;
+    left: 850px;
+    top: 20px;
 }
 
 header h1 {
