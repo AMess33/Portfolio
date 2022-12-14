@@ -47,8 +47,8 @@ nav ul {
 
 .profile-picture {
     position: absolute;
-    background-image: url(./images/profileavatar.jpeg);
     border: 3px solid blue;
+    border-radius: 10px;
     height: 200px;
     width: 200px;
     left: 850px;
