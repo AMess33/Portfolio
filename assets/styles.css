@@ -1,7 +1,10 @@
 * {
 box-sizing: border-box;
 }
-
+:root {
+    --borders-color: blue;
+    --background-bolor: beige;
+}
 
 
 body {
@@ -17,7 +20,7 @@ header {
     text-align: center;
     background-color: rgb(205, 72, 72);
     border-radius: 30%;
-    border: 3px solid blue;
+    border: 3px solid var(--borders-color);
     z-index: 10;
 }
 
@@ -26,15 +29,15 @@ nav ul {
     left: 20px;
     top: 160px;
 }
-
+/* nav buttons in header */
 .button-nav {
     display: inline-block;
     padding: 0px 10px;
-    border: 2px solid blue;
+    border: 2px solid var(--borders-color);
     background-color: white;
     border-radius: 25%;
 }
-
+/* nav button interaction */
 .button-nav:hover {
     background-color: rgb(36, 147, 212);
     color: white;
@@ -45,10 +48,10 @@ nav ul {
     color: darkblue;
     font-weight: bolder;
 }
-
+/* avatar picture positioning and style */
 .profile-picture {
     position: relative;
-    border: 3px solid blue;
+    border: 3px solid var(--borders-color);
     border-radius: 10px;
     height: 200px;
     width: 200px;
@@ -60,11 +63,11 @@ header h1 {
     font-size: 80px;
     
 }
-
+/* AboutMe positioning and styles */
 .aboutMe {
     position: relative;
-    background-color: beige;
-    border: 3px solid blue;
+    background-color: var(--background-bolor);
+    border: 3px solid var(--borders-color);
     float: left;
     width: 28%;
     height: 100%;
@@ -73,47 +76,49 @@ header h1 {
     top: 300px;
 
 }
-
+/* projects positioning and styles */
 .project {
     position: relative;
     top: 300px;
     flex-wrap: wrap;
-    border: 3px solid blue;
+    border: 3px solid var(--borders-color);
     text-align: center;
     float: right;
     width: 70%;
     height: 100%;
-    background-color: beige;
+    background-color: var(--background-bolor);
 }
 
 .project li {
     display: inline-block;
-}
 
+}
+/* first project to be featured at top of projects section */
 .images img { 
     height: 400px;
-    width: 90%;
+    max-width: 90%;
     padding: 10px;
 }
-
+/* rest of projects to be half size and side by side */
 .imageTwo img {
     height: 330px;
-    width: 350px;
+    width: 375px;
     padding: 5px;
 }
-
+/* project interactivity affect */
 .images img:hover {
-    border: 4px dotted blue;
+    border: 4px dotted var(--borders-color);
 }
 .imageTwo:hover {
-    border: 4px dotted blue;
+    border: 4px dotted var(--borders-color);
 }
+/* footer positioning and styles */
 .footer {
     position: relative;
     bottom: 0px;
-    background-color: beige;
+    background-color: var(--background-bolor);
     width: 28%;
-    border: 3px solid blue;
+    border: 3px solid var(--borders-color);
     padding: 5px;
     float: left;  
     top: 320px;  
