@@ -1,4 +1,4 @@
-# <Andrew Messer's Coding Portfolio>
+# Andrew Messer's Coding Portfolio
 
 ## Build a portfolio to show potential employers of my previous projects and abilities in Full Stack Web Development
 
