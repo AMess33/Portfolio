@@ -9,6 +9,7 @@ body {
 }
 
 header {
+    position: absolute;
     margin: auto;
     line-height: 30px;
     height: 250px;
@@ -17,6 +18,7 @@ header {
     background-color: rgb(205, 72, 72);
     border-radius: 30%;
     border: 3px solid blue;
+    z-index: 10;
 }
 
 nav ul {
@@ -50,8 +52,8 @@ nav ul {
     border-radius: 10px;
     height: 200px;
     width: 200px;
-    left: 870px;
-    top: 30px;
+    left: 850px;
+    top: 20px;
 }
 
 header h1 {
@@ -60,6 +62,7 @@ header h1 {
 }
 
 .aboutMe {
+    position: relative;
     background-color: beige;
     border: 3px solid blue;
     float: left;
@@ -67,10 +70,13 @@ header h1 {
     height: 100%;
     text-align: center;
     padding: 5px;
+    top: 300px;
 
 }
 
 .project {
+    position: relative;
+    top: 300px;
     flex-wrap: wrap;
     border: 3px solid blue;
     text-align: center;
@@ -103,6 +109,15 @@ header h1 {
     border: 4px dotted blue;
 }
 .footer {
+    position: relative;
+    bottom: 0px;
+    background-color: beige;
+    width: 28%;
+    border: 3px solid blue;
+    padding: 5px;
+    float: left;  
+    top: 320px;  
+    text-align: center;
   
 
 }
