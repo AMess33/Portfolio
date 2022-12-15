@@ -97,6 +97,8 @@ header h1 {
 }
 
 .imageTwo img {
+    height: 330px;
+    width: 350px;
     padding: 5px;
 }
 
