@@ -13,7 +13,7 @@ header {
     margin: auto;
     line-height: 30px;
     height: 250px;
-    width: 1200px;
+    width: 98%;
     text-align: center;
     background-color: rgb(205, 72, 72);
     border-radius: 30%;
@@ -47,13 +47,13 @@ nav ul {
 }
 
 .profile-picture {
-    position: absolute;
+    position: relative;
     border: 3px solid blue;
     border-radius: 10px;
     height: 200px;
     width: 200px;
-    left: 850px;
-    top: 20px;
+    left: 370px;
+    bottom: 163px;
 }
 
 header h1 {
@@ -97,6 +97,8 @@ header h1 {
 }
 
 .imageTwo img {
+    height: 330px;
+    width: 350px;
     padding: 5px;
 }
 
