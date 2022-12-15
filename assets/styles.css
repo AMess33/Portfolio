@@ -92,13 +92,11 @@ header h1 {
 
 .images img { 
     height: 400px;
-    width: 750px;
+    width: 90%;
     padding: 10px;
 }
 
 .imageTwo img {
-    height: 400px;
-    width: 370px;
     padding: 5px;
 }
 
