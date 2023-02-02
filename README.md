@@ -14,4 +14,4 @@
 
 When you open the webpage you will see a Header with my name/title/picture as well as Navigation tabs that will take you to the About Me, Projects, and Contact info sections on the webpage. If you click on a project photo you will be redirected to the project's URL. 
 
-![Andrew Messer's Coding Porfolio Screenshot](assets/images/Screenshot%202022-12-15%20at%2011.27.55%20AM.png)
+![Andrew Messer's Coding Porfolio Screenshot](assets/images/Webpage Screenshot.png)
